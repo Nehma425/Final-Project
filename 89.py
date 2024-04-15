@@ -27,7 +27,7 @@ st.markdown("Currently, CitiBike faces a challenge wherein customers frequently 
 page = st.sidebar.selectbox("Aspect Selector", ["Intro page", "Most popular stations", "Bike Trips and Temperature", "Aggregated Bike Trips", "Recommendations"])
 
 # Load data
-small = pd.read_csv('reduced_data_to_plot_7new.csv', index_col=0)
+
 df3 = pd.read_csv('top20.csv', index_col=0)
 df = pd.read_csv('dual_chart.csv', index_col=0)
 df1 = pd.read_csv('seasons.csv', index_col=0)
